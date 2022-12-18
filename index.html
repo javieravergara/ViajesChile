@@ -270,35 +270,33 @@
           <form action="submeter-formulario.php" method="post">       
 
             
-                <p>
                   <label for="nombre" class="colocar_nombre">Nombre
                     <span class="obligatorio">*</span>
                   </label>
                     <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                </p>
-              
-                <p>
+
+    
                   <label for="asunto" class="colocar_asunto">Asunto
                     <span class="obligatorio">*</span>
                   </label>
                     <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-                </p>    
+  
               
-                <p>
+ 
                   <label for="mensaje" class="colocar_mensaje">Mensaje
                     <span class="obligatorio">*</span>
                   </label>                     
                                     <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                                </p>                    
+                    
               
                 <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
 
-                <p class="aviso">
-                  <span class="obligatorio"> * </span>Campos obligatorios.
-                </p>          
-            
-          </form>
-    </div>  
+            </form>
+            <p class="aviso">
+              <span class="obligatorio"> * </span>Campos obligatorios.
+            </p>          
+        
+        </div>  
   </div>
 
         <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
