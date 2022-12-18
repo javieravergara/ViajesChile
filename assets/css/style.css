@@ -185,6 +185,15 @@ body {
     outline:0;
     border: 1px solid #97d848;
   }
+  #enviar{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+  }
+ 
   /* footer*/
   .page-footer
   {
